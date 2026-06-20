@@ -35,7 +35,7 @@ export const projects = [
     badge: "HTML · CSS",
     bgGradient: "linear-gradient(135deg,#0D2A1a,#17402a)",
     icon: "📈",
-    liveUrl: null,
+    liveUrl: "https://trading-info-site.vercel.app",
     githubUrl: "https://github.com/Ibar-Estudios/Trading-Info-Site.git",
   },
   {
@@ -48,7 +48,7 @@ export const projects = [
     badge: "React · Grupal",
     bgGradient: "linear-gradient(135deg,#2A1a0D,#402a17)",
     icon: "🤝",
-    liveUrl: null,
+    liveUrl: "https://origin-dev-tau.vercel.app",
     githubUrl: "https://github.com/Ibar-Estudios/OriginDev.git",
   },
 ];
