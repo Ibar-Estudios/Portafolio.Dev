@@ -259,7 +259,6 @@ const Contact = ({ visible }) => {
                 fontFamily: "var(--font-mono)",
               }}
             >
-              redirige a mailto: exequielcaubet@gmail.com
             </p>
           </div>
         </div>

@@ -26,11 +26,14 @@ export const skills = [
 ];
 
 export const stack = [
-  "MongoDB",
-  "Express",
   "React",
   "Node.js",
   "Next.js",
+  "MongoDB",
+  "Express",
+  "JavaScript",
+  "HTML5",
+  "CSS3",
   "Tailwind",
   "Vercel",
   "Render",

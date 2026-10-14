@@ -6,7 +6,7 @@ const TERMINAL_LINES = [
   { delay: 620,  html: '<span class="t-keyword">const</span> <span class="t-func">developer</span> <span class="t-paren">= {</span>' },
   { delay: 1050, html: '&nbsp;&nbsp;name<span class="t-paren">:</span> <span class="t-string">"Ibar Exequiel Caubet"</span><span class="t-paren">,</span>' },
   { delay: 1480, html: '&nbsp;&nbsp;role<span class="t-paren">:</span> <span class="t-string">"Full Stack Developer"</span><span class="t-paren">,</span>' },
-  { delay: 1900, html: '&nbsp;&nbsp;stack<span class="t-paren">:</span> <span class="t-string">["MongoDB","Express","React","Node.js"]</span><span class="t-paren">,</span>' },
+  { delay: 1900, html: '&nbsp;&nbsp;stack<span class="t-paren">:</span> <span class="t-string">["MongoDB","Express","React","Node.js", "Next.js"]</span><span class="t-paren">,</span>' },
   { delay: 2320, html: '&nbsp;&nbsp;deploy<span class="t-paren">:</span> <span class="t-string">["Vercel","Render"]</span><span class="t-paren">,</span>' },
   { delay: 2680, html: '&nbsp;&nbsp;location<span class="t-paren">:</span> <span class="t-string">"Pilar, Buenos Aires 🇦🇷"</span><span class="t-paren">,</span>' },
   { delay: 3060, html: '&nbsp;&nbsp;status<span class="t-paren">:</span> <span class="t-string">"open to work ✓"</span>' },
@@ -40,7 +40,7 @@ const AnimatedTerminal = () => {
         <div className="terminal-dot" style={{ background: "#FF5F56" }} />
         <div className="terminal-dot" style={{ background: "#FFBD2E" }} />
         <div className="terminal-dot" style={{ background: "#27C93F" }} />
-        <span className="terminal-label">portfolio.js — node v20</span>
+        <span className="terminal-label">portfolio.js — node v22</span>
       </div>
 
       <div className="terminal-body">
