@@ -33,7 +33,7 @@ const Home = ({ onNavigate, visible }) => {
         }}
       >
         {/* Terminal */}
-        <div className="anim-ready">
+        <div className="anim-ready" style={{ marginTop: "1rem" }}>
           <AnimatedTerminal />
         </div>
 
@@ -67,9 +67,10 @@ const Home = ({ onNavigate, visible }) => {
             maxWidth: "540px",
           }}
         >
-          Desarrollador Full Stack MERN especializado en React, Node.js y
-          MongoDB. Combino precisión técnica con sensibilidad de diseño para
-          crear productos reales y funcionales.
+          Full Stack MERN Developer (React, Node.js, Express, MongoDB) 
+          con foco en automatización de procesos con IA (Make, n8n) y diseño de interfaces 
+          centradas en el usuario. Diseño, desarrollo y despliego productos de punta a punta, 
+          de la arquitectura al deploy en producción.
         </p>
 
         {/* CTAs */}
@@ -148,6 +149,7 @@ const Home = ({ onNavigate, visible }) => {
             alignItems: "center",
             gap: "0.75rem",
             flexWrap: "wrap",
+            marginBottom: "2rem",
           }}
         >
           <span

@@ -47,7 +47,7 @@ const Footer = () => {
             aria-label={label}
             style={{
               color: "var(--text-3)",
-              fontSize: "20px",
+              fontSize: "28px",
               transition: "color 0.2s, transform 0.2s",
               display: "inline-block",
             }}

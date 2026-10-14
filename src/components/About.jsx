@@ -166,7 +166,14 @@ const About = ({ visible }) => {
             <div
               key={skill.category}
               className="anim-scale"
-              style={{ transitionDelay: `${i * 80}ms` }}
+              style={{
+                transitionDelay: `${i * 80}ms`,
+                background: "var(--card)",
+                border: "1px solid var(--border)",
+                borderRadius: "10px",
+                padding: "1.25rem",
+                transition: "border-color 0.2s, transform 0.2s",
+              }}
               onMouseEnter={(e) => {
                 e.currentTarget.style.borderColor = "rgba(61,255,224,0.3)";
                 e.currentTarget.style.transform = "translateY(-2px)";
@@ -182,13 +189,7 @@ const About = ({ visible }) => {
                 padding: "1.25rem",
                 transition: "border-color 0.2s, transform 0.2s",
               }}
-              style={{
-                background: "var(--card)",
-                border: "1px solid var(--border)",
-                borderRadius: "10px",
-                padding: "1.25rem",
-                transition: "border-color 0.2s, transform 0.2s",
-              }}
+
             >
               <div
                 style={{

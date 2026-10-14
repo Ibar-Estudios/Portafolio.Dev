@@ -1,26 +1,28 @@
 import { useEffect, useRef, useState } from "react";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
 
 const CONTACT_LINKS = [
   {
-    icon: "in",
+    icon: <FaLinkedin />,
     label: "LinkedIn",
     handle: "/in/ibar-caubet",
     href: "https://www.linkedin.com/in/ibar-caubet-0571873a1/",
   },
   {
-    icon: "gh",
+    icon: <FaGithub />,
     label: "GitHub",
     handle: "@IBAR-ESTUDIOS",
     href: "https://github.com/Ibar-Estudios",
   },
   {
-    icon: "@",
+    icon: <IoIosMail />,
     label: "Email",
     handle: "exequielcaubet@gmail.com",
     href: "https://mail.google.com/mail/?view=cm&to=exequielcaubet@gmail.com",
   },
   {
-    icon: "ig",
+    icon: <FaInstagram />,
     label: "Instagram",
     handle: "@ibar_caubet",
     href: "https://www.instagram.com/ibar_caubet/",

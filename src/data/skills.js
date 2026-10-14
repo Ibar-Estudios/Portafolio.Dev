@@ -37,4 +37,8 @@ export const stack = [
   "Tailwind",
   "Vercel",
   "Render",
+  "n8n",
+  "Make",
+  "Figma",
+  "Git",
 ];
